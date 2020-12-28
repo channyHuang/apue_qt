@@ -25,5 +25,7 @@ int main(void)
         cout << "write error" << endl;
     }
 
+    close(fd);
+
     return 0;
 }
